@@ -19,7 +19,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires="==3.*",
+    python_requires="==3.*.*",
     packages=setuptools.find_packages(),
     data_files=[
         ("wordlist", ["better_profanity/profanity_wordlist.txt"]),
